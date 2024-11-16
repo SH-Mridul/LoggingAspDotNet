@@ -1,0 +1,21 @@
+log entry
+Saturday, November 16, 202411:49:00 PM
+Message Title :employee index
+Message :System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingDemo.Controllers.EmployeesController.Index() in F:\LoggingPractice\LoggingAspDotNet\src\LoggingDemoApplication\LoggingDemo\Controllers\EmployeesController.cs:line 31
+---------------------------------------------------------
+
+log entry
+Saturday, November 16, 202411:55:08 PM
+Message Title :employee index
+Message :System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingDemo.Controllers.EmployeesController.Index() in F:\LoggingPractice\LoggingAspDotNet\src\LoggingDemoApplication\LoggingDemo\Controllers\EmployeesController.cs:line 31
+---------------------------------------------------------
+
+log entry
+Saturday, November 16, 202411:55:58 PM
+Message Title :employee index
+Message :System.DivideByZeroException: Attempted to divide by zero.
+   at LoggingDemo.Controllers.EmployeesController.Index() in F:\LoggingPractice\LoggingAspDotNet\src\LoggingDemoApplication\LoggingDemo\Controllers\EmployeesController.cs:line 31
+---------------------------------------------------------
+

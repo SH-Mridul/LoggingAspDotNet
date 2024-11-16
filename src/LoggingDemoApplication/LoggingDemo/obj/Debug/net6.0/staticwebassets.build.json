@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DPr4aNJSW+zPp0IOJmrS2+1xzw1RZqU+BXLOrygc688=",
+  "Hash": "++9dN6EdRQaavqN6k9nZSlgujyxn45MUN7QgDT48Cpg=",
   "Source": "LoggingDemo",
   "BasePath": "_content/LoggingDemo",
   "Mode": "Default",
@@ -1193,6 +1193,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Identity": "F:\\LoggingPractice\\LoggingAspDotNet\\src\\LoggingDemoApplication\\LoggingDemo\\wwwroot\\LogFolder\\16112024.txt",
+      "SourceId": "LoggingDemo",
+      "SourceType": "Discovered",
+      "ContentRoot": "F:\\LoggingPractice\\LoggingAspDotNet\\src\\LoggingDemoApplication\\LoggingDemo\\wwwroot\\",
+      "BasePath": "_content/LoggingDemo",
+      "RelativePath": "LogFolder/16112024.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\LogFolder\\16112024.txt"
     }
   ]
 }

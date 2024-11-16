@@ -247,3 +247,4 @@ F:\LoggingPractice\LoggingAspDotNet\src\LoggingDemoApplication\LoggingDemo\obj\D
 F:\LoggingPractice\LoggingAspDotNet\src\LoggingDemoApplication\LoggingDemo\obj\Debug\net6.0\LoggingDemo.pdb
 F:\LoggingPractice\LoggingAspDotNet\src\LoggingDemoApplication\LoggingDemo\obj\Debug\net6.0\LoggingDemo.genruntimeconfig.cache
 F:\LoggingPractice\LoggingAspDotNet\src\LoggingDemoApplication\LoggingDemo\obj\Debug\net6.0\ref\LoggingDemo.dll
+F:\LoggingPractice\LoggingAspDotNet\src\LoggingDemoApplication\LoggingDemo\obj\Debug\net6.0\LoggingDemo.sourcelink.json

@@ -13,20 +13,32 @@ namespace LoggingDemo.Controllers
     public class EmployeesController : Controller
     {
         private readonly LoggingDemoContext _context;
+        private readonly IWebHostEnvironment _webHosting;
 
-        public EmployeesController(LoggingDemoContext context)
+        public EmployeesController(LoggingDemoContext context, IWebHostEnvironment env)
         {
             _context = context;
+            _webHosting = env;
         }
 
         // GET: Employees
         public async Task<IActionResult> Index()
         {
 
-              LoggEvents.LogToFile("Title","Message");
-              return _context.Employee != null ? 
-                          View(await _context.Employee.ToListAsync()) :
-                          Problem("Entity set 'LoggingDemoContext.Employee'  is null.");
+            try
+            {
+                int value = 0;
+                int result = 1000 / value;
+                return _context.Employee != null ?
+                         View(await _context.Employee.ToListAsync()) :
+                         Problem("Entity set 'LoggingDemoContext.Employee'  is null.");
+            }
+            catch(Exception ex)
+            {
+                LoggEvents.LogToFile("employee index",ex.ToString(), _webHosting);
+                return NotFound();
+            }
+             
         }
 
         // GET: Employees/Details/5

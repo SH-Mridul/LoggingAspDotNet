@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\LoggingDemo.bundle.scp.css"
     },
     {
+      "Id": "F:\\LoggingPractice\\LoggingAspDotNet\\src\\LoggingDemoApplication\\LoggingDemo\\wwwroot\\LogFolder\\16112024.txt",
+      "PackagePath": "staticwebassets\\LogFolder\\16112024.txt"
+    },
+    {
       "Id": "F:\\LoggingPractice\\LoggingAspDotNet\\src\\LoggingDemoApplication\\LoggingDemo\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
